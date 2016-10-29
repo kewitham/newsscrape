@@ -1,0 +1,27 @@
+{
+  "name": "newsscrape",
+  "version": "1.0.0",
+  "description": "news scrape",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kewitham/newsscrape.git"
+  },
+  "author": "kewitham@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kewitham/newsscrape/issues"
+  },
+  "homepage": "https://github.com/kewitham/newsscrape#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.6.5",
+    "request": "^2.76.0"
+  }
+}
